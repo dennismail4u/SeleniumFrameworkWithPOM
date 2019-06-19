@@ -63,7 +63,15 @@ Feature: Notes
 # git status 	--> will see the updated files in red color
 # git aa .   --> Again add for stage  --> If you do git status -- will see them in green
 # git commit -m "comment"
-# git push origin master  --> 
+# git push origin master  
+# ---------------------------------------------------------------
+#
+# 
+# ******** To put this git url in Jenkins instead of local project folder **********
+# Go to jenkings job project - configure
+# Past the git url without .git(https://github.com/dennismail4u/SeleniumFrameworkWithPOM) in the git url field.
+# Just keep all other fields as it is even master branch.
+# 
 
 
 
