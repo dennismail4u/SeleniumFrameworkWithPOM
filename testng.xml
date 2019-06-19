@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Page Object test example" verbose="1" data-provider-thread-count="1">
+
+<!-- <parameter name="appURL" value="https://www.google.co.in/"/>
+< parameter name="browserType" value="firefox"/>   -->
+
+  <test name="Test">
+    <classes>
+    
+      <class name="com.TestRunner.TestRunner"/>
+      
+      <!-- <class name="com.pack.common.tests.BasePageTests"/>
+      <class name="com.pack.common.tests.SignInPageTests"/>
+      <class name="com.pack.common.tests.CreateAnAccountTests"/>  -->
+    
+    </classes>
+  </test>
+</suite>

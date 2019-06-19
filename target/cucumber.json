@@ -1,0 +1,532 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4891684138,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "FreeCRM contacts page positive scenario",
+        "description": "",
+        "id": "freecrm-contacts-page-validations;freecrm-contacts-page-positive-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 584491499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4495238548,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on the contacts Page",
+            "match": {
+              "location": "ContactsPageTests.user_on_the_contacts_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 560223228,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on new button",
+            "match": {
+              "location": "ContactsPageTests.user_clicks_on_new_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1414958753,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fills firstname and lastname and save",
+            "match": {
+              "location": "ContactsPageTests.user_fills_firstname_and_lastname_and_save(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "testfirstname",
+                  "testlastname"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@FreeCRM"
+          },
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Contacts Page Validations",
+    "description": "",
+    "id": "freecrm-contacts-page-validations",
+    "keyword": "Feature",
+    "uri": "ContactsPageTests.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3578765225,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "FreeCRM homepage positive scenario",
+        "description": "",
+        "id": "freecrm-homepage-validations;freecrm-homepage-positive-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 581905293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3472957582,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on homepage",
+            "match": {
+              "location": "HomePageTest.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4376767,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify homepage title",
+            "match": {
+              "location": "HomePageTest.verify_homepage_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 563262572,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify username label",
+            "match": {
+              "location": "HomePageTest.verify_username_label()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290907785,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify contacts link",
+            "match": {
+              "location": "HomePageTest.verify_contacts_link()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@FreeCRM"
+          },
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM HomePage Validations",
+    "description": "",
+    "id": "freecrm-homepage-validations",
+    "keyword": "Feature",
+    "uri": "HomePageTests.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#Below is data driven testing in cucumber without Example"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 3651642441,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "FreeCRM login positive scenario with step parameter",
+        "description": "",
+        "id": "freecrm-login-validations;freecrm-login-positive-scenario-with-step-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 591391302,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 602591,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login",
+            "match": {
+              "location": "LoginPageTest.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 578383806,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "CRM logo is present",
+            "match": {
+              "location": "LoginPageTest.crm_logo_is_present()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3185699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the page title",
+            "match": {
+              "location": "LoginPageTest.login_and_verify_the_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3501959289,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter login credentials \"dennismail4u@gmail.com\" and verify home page label name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dennismail4u@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginPageTest.enter_login_credentials_and_verify_home_page_label_name(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTests"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          },
+          {
+            "line": 3,
+            "name": "@FreeCRM"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3704493727,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 84997,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.specificPreCondition()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "FreeCRM login positive scenario with Examples",
+        "description": "",
+        "id": "freecrm-login-validations;freecrm-login-positive-scenario-with-examples;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 582761597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 911695,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "login",
+            "match": {
+              "location": "LoginPageTest.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581093848,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "CRM logo is present",
+            "match": {
+              "location": "LoginPageTest.crm_logo_is_present()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2298303,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the page title",
+            "match": {
+              "location": "LoginPageTest.login_and_verify_the_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3439720504,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter login credentials \"dennismail4u@gmail.com\" and verify home page label name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dennismail4u@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginPageTest.enter_login_credentials_and_verify_home_page_label_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@FreeCRM"
+          },
+          {
+            "line": 12,
+            "name": "@specialCase"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3574181946,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40437,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.specificPreCondition()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "FreeCRM login positive scenario with Examples",
+        "description": "",
+        "id": "freecrm-login-validations;freecrm-login-positive-scenario-with-examples;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 567539322,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 506416,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "login",
+            "match": {
+              "location": "LoginPageTest.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 579506953,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "CRM logo is present",
+            "match": {
+              "location": "LoginPageTest.crm_logo_is_present()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2458981,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the page title",
+            "match": {
+              "location": "LoginPageTest.login_and_verify_the_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8222865959,
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //*[contains(text(),\u0027Dennis Thomas\u0027)]\u0027 (tried for 5 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\n\tat com.util.TestUtil.waitForElementToBeVisible(TestUtil.java:22)\n\tat com.pages.HomePage.verifyCorrectUserName(HomePage.java:47)\n\tat com.StepDef.LoginPageTest.enter_login_credentials_and_verify_home_page_label_name(LoginPageTest.java:52)\n\tat ✽.Then enter login credentials \"test@test.com\" and verify home page label name(LoginPageTests.feature:17)\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(text(),\u0027Dennis Thomas\u0027)]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027Denniss-MBP.fios-router.home\u0027, ip: \u0027fe80:0:0:0:463:a143:5e84:e1aa%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.6\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 67.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190529130856, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 2448, moz:profile: /var/folders/17/9vplwdb13cd..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6d974f37-ce62-a04f-8487-54f6a8ed9387\n*** Element info: {Using\u003dxpath, value\u003d//*[contains(text(),\u0027Dennis Thomas\u0027)]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\n\tat com.util.TestUtil.waitForElementToBeVisible(TestUtil.java:22)\n\tat com.pages.HomePage.verifyCorrectUserName(HomePage.java:47)\n\tat com.StepDef.LoginPageTest.enter_login_credentials_and_verify_home_page_label_name(LoginPageTest.java:52)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\n\tat com.TestRunner.TestRunner.feature(TestRunner.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:639)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:774)\n\tat org.testng.TestRunner.run(TestRunner.java:624)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:359)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:261)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.run(TestNG.java:1024)\n\tat org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "enter login credentials \"test@test.com\" and verify home page label name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginPageTest.enter_login_credentials_and_verify_home_page_label_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@FreeCRM"
+          },
+          {
+            "line": 12,
+            "name": "@specialCase"
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Login Validations",
+    "description": "",
+    "id": "freecrm-login-validations",
+    "keyword": "Feature",
+    "uri": "LoginPageTests.feature"
+  }
+]
