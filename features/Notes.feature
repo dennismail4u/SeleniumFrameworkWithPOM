@@ -50,6 +50,21 @@ Feature: Notes
 # ************** Git ******************************
 # Go to your project folder in terminal
 # ls -a   --> Will list all files inside it
-# 
+# Create a new repository on GitHub login. To avoid errors, do not initialize the new repository with README, license, or gitignore files.
+# git init  --> Initialize the local directory as a Git repository.
+# git add .  --> Add the files in your new local repository. This stages them for the first commit.
+# git commit -m "First commit"  --> Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+# copy the remote repository URL.
+# git remote add origin remote repository URL  --> Sets the new remote
+# git remote -v  --> Verifies the new remote URL
+# git push -u origin master  --> Pushes the changes in your local repository up to the remote repository you specified as the origin
+#---------------------------------------------------------------
+# Note: Now make the changes
+# git status 	--> will see the updated files in red color
+# git aa .   --> Again add for stage  --> If you do git status -- will see them in green
+# git commit -m "comment"
+# git push origin master  --> 
+
+
 
 
