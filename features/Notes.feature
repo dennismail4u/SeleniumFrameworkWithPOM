@@ -40,6 +40,11 @@ Feature: Notes
 # Now its ready for basic run, just click build now to download all the artifacts and run the pom.xml which is the project itself.
 
 # To find the java installation path in mac -- just run "/usr/libexec/java_home -v 1.8" in terminal --> it will show the path.
+# To update OR SEt CLASSPATH in .bash_profile  --> Just enter "open -e .bash_profile" in terminal AND edit in text edit which opens
+# Enter below to .bash_profile :
+#		export JAVA_HOME=‘/usr/libexec/java_home -v 1.8
+#		export PATH=$JAVA_HOME/bin:$PATH
+#
 # Put this path in the jdk field in jenkins
 # For that Go Manage Jenkins - Gloabal Tool Configuration - Under JDK - JDK Name=JDK 8, JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home(From above)
 # For setting project path in Jenkins Configure -> Project - Configure - Under Build-> Root POM = SeleniumFrameworkProj/pom.xml
