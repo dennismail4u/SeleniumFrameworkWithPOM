@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#Below is data driven testing in cucumber without Example"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 4394038406,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTests.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "FreeCRM login positive scenario with step parameter",
+        "description": "",
+        "id": "freecrm-login-validations;freecrm-login-positive-scenario-with-step-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 606483534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTests.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153603992,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login",
+            "match": {
+              "location": "LoginPageTests.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280160888,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "CRM logo is present",
+            "match": {
+              "location": "LoginPageTests.crm_logo_is_present()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2762896,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the page title",
+            "match": {
+              "location": "LoginPageTests.login_and_verify_the_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3765761256,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter login credentials \"dennismail4u@gmail.com\" and verify home page label name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dennismail4u@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginPageTests.enter_login_credentials_and_verify_home_page_label_name(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTests"
+          },
+          {
+            "line": 3,
+            "name": "@Regression"
+          },
+          {
+            "line": 3,
+            "name": "@FreeCRM"
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Login Validations",
+    "description": "",
+    "id": "freecrm-login-validations",
+    "keyword": "Feature",
+    "uri": "LoginPageTests.feature"
+  }
+]

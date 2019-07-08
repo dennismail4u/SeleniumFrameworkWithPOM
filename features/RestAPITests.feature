@@ -1,4 +1,4 @@
-@RestAPITest
+@RestAPITestOld
 Feature: Rest API GET and POST test Validations
 	Scenario: Rest API GET test Validations
 	Given initiialize rest client

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="9496" started-at="2019-07-02T16:09:36Z" finished-at="2019-07-02T16:09:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9496" started-at="2019-07-02T16:09:36Z" finished-at="2019-07-02T16:09:46Z">
+      <class name="com.TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.TestRunner.TestRunner@32e6e9c3]" name="setUpClass" is-config="true" duration-ms="180" started-at="2019-07-02T12:09:36Z" finished-at="2019-07-02T12:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRunner.TestRunner@32e6e9c3]" name="feature" duration-ms="9228" started-at="2019-07-02T12:09:36Z" data-provider="features" finished-at="2019-07-02T12:09:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FreeCRM Login Validations]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.TestRunner.TestRunner@32e6e9c3]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2019-07-02T12:09:46Z" finished-at="2019-07-02T12:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

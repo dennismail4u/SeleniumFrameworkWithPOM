@@ -2,23 +2,23 @@ package com.StepDef;
 
 import java.util.List;
 
-import com.base.TestBase;
-import com.pages.ContactsPage;
-import com.pages.HomePage;
-import com.pages.LoginPage;
+import com.base.Test_Base;
+import com.pages.Contacts_Page;
+import com.pages.Home_Page;
+import com.pages.Login_Page;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class ContactsPageTests extends TestBase{
-	LoginPage loginPage;
-	HomePage homePage;
-	ContactsPage contactsPage;
+public class ContactsPageTests extends Test_Base{
+	Login_Page loginPage;
+	Home_Page homePage;
+	Contacts_Page contactsPage;
 	
 	@Given("^user on the contacts Page$")
 	public void user_on_the_contacts_Page() throws Throwable {
-		loginPage = new LoginPage();
+		loginPage = new Login_Page();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		contactsPage = homePage.clickOnContactsLink();
 	}
